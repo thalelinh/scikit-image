@@ -387,7 +387,7 @@ def regionprops(label_image, intensity_image=None, cache=True):
         Ratio of pixels in the region to pixels in the total bounding box.
         Computed as ``area / (rows * cols)``
     **filled_area** : int
-        Number of pixels of the region will all the holes filled in. Describes
+        Number of pixels of the region with all the holes filled in. Describes
         the area of the filled_image.
     **filled_image** : (H, J) ndarray
         Binary region image with filled holes which has the same size as
